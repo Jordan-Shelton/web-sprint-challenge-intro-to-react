@@ -3,7 +3,7 @@ import './App.css';
 import axios from 'axios'
 import Character from './components/Character'
 import styled from 'styled-components'
-import './index'
+import './index.css'
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -22,7 +22,7 @@ const App = () => {
   },[])
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <h1 className="Header">Star Wars Characters</h1>
       {starWarsData.map(function(element, ixd){
         return <Character
         name= {element.name}

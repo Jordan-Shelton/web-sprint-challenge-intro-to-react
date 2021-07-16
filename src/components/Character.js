@@ -19,18 +19,17 @@ return (
     )
 }
 const styleTitle = styled.h2`
-font-family: cursive
-color: white
-font-size: 38px
-margin-bottom:0
-padding-top:20px
+font-family: cursive;
+color: white;
+font-size: 38px;
+margin-bottom:0;
+padding-top:20px;
 `
 const styleText = styled.p`
-color: white
-font-size:10px
-font-family: sans-serif
-font-size:20px
-margin-top:0
+color: white;
+font-size:50px;
+font-family: sans-serif;
+margin-top:0;
 `
 const styleDiv = styled.div``
 
