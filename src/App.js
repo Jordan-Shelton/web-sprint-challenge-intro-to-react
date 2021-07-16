@@ -21,8 +21,8 @@ const App = () => {
     .catch()
   },[])
   return (
-    <div className="App">
-      <h1 className="Header">Star Wars Characters</h1>
+    <styleDiv className="App">
+      <styleH1 className="Header">Star Wars Characters</styleH1>
       {starWarsData.map(function(element, ixd){
         return <Character
         name= {element.name}
@@ -33,7 +33,7 @@ const App = () => {
         key = {ixd}
         />
       })}
-    </div>
+    </styleDiv>
   );
 }
 

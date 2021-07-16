@@ -19,7 +19,7 @@ return (
     )
 }
 const styleTitle = styled.h2`
-font-family: cursive;
+font-family: 'Zen Tokyo Zoo', cursive;
 color: white;
 font-size: 38px;
 margin-bottom:0;
@@ -27,10 +27,10 @@ padding-top:20px;
 `
 const styleText = styled.p`
 color: white;
-font-size:50px;
-font-family: sans-serif;
+font-size:15px;
+font-family: 'Bebas Neue', cursive;
 margin-top:0;
 `
-const styleDiv = styled.div``
+// const styleDiv = styled.div``
 
 export default Character;
